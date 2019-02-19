@@ -34,23 +34,60 @@
     .jumbotron {
         background-image: url(images/pill-Vaccine.jpg);
     }
+
+        .navbar-brand {
+            margin-right: 0;
+            text-align: center;
+        }
+
+    .logo img{
+        width: 35%;
+
+        }
+
+    .social-icons {
+        display: block;
+        margin-right: 4%;
+        margin-left: auto;
+        }
+
+        header {
+            padding: .5em;
+            overflow: hidden;
+        }
+
+
+        @media(min-width:425px) {
+            .logo img {
+                width: 50%;
+            }
+
+            .social-icons {
+                margin: auto 4% auto auto;
+            }
+
+            .navbar-brand {
+            text-align: left;
+        }
+        }
+
     </style>
 </head>
 
 <body>
     <header class="header bg">
-        <div class="container text-white">
+
             <div class="row">
 
-                <div class="col-sm-4 col-12 align-self-center box-1 text-center">
-                    <a class="navbar-brand" href="index.html"><img src="TV2-Lorry-SORT.png" alt="logo"></a>
+                <div class="col-sm-4 col-12 align-self-center box-1  logo">
+                    <a class="navbar-brand" href="https://www.tv2lorry.dk"><img src="TV2-Lorry-SORT.png" alt="logo"></a>
                 </div>
                 <div class="social-icons">
                     <a href="#"><i class="fa fa-facebook" aria-hidden="true"></i></a>
                     <a href="#"><i class="fa fa-instagram" aria-hidden="true"></i></a>
                 </div>
             </div>
-        </div>
+
         <!--/row-->
         <!--container-->
     </header>

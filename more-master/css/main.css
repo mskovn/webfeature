@@ -63,7 +63,7 @@ ul > li {
     ======*/
 
 header {
-    padding: 45px 0;
+    padding: 20px 0;
     color: #000000;
     background-color: #ffffff;
 }
@@ -1837,9 +1837,7 @@ textarea.form-control {
         font-size: 12px;
         padding: 10px 10px;
     }
-    header .navbar-brand img {
-        width: 75%;
-    }
+
     header .fa {
         font-size: 18px;
         margin-left: 10px;
@@ -2690,9 +2688,7 @@ textarea.form-control {
         padding-right: 15px;
         padding-left: 15px;
     }
-    header .navbar-brand img {
-        width: 60%;
-    }
+
     .navbar-nav {
         padding: 10px 0;
     }
